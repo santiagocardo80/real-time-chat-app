@@ -1,0 +1,20 @@
+{
+  "name": "realtime-chat",
+  "version": "1.0.0",
+  "description": "A Real-Time Chat App With Socket.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Santiago Cardona",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.25.3",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
